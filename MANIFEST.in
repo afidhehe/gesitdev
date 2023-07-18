@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gesitdev *.css
+recursive-include gesitdev *.csv
+recursive-include gesitdev *.html
+recursive-include gesitdev *.ico
+recursive-include gesitdev *.js
+recursive-include gesitdev *.json
+recursive-include gesitdev *.md
+recursive-include gesitdev *.png
+recursive-include gesitdev *.py
+recursive-include gesitdev *.svg
+recursive-include gesitdev *.txt
+recursive-exclude gesitdev *.pyc
